@@ -12,9 +12,9 @@ physics_material_override = SubResource("PhysicsMaterial_6ube8")
 linear_damp_mode = 1
 script = ExtResource("1_em8ql")
 
+[node name="Explosion" parent="." instance=ExtResource("3_w8gp8")]
+
 [node name="Sprite2D" type="Sprite2D" parent="." groups=["rocks"]]
 texture = ExtResource("2_ftiyj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["rocks"]]
-
-[node name="Explosion" parent="." instance=ExtResource("3_w8gp8")]
